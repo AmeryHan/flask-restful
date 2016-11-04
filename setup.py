@@ -12,6 +12,8 @@ requirements = [
     'Flask>=0.8',
     'six>=1.3.0',
     'pytz',
+    'requests',
+    'python-simplexml'
 ]
 if PY26:
     requirements.append('ordereddict')
